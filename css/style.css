@@ -17,13 +17,15 @@ body {
 }
 .dropcap{
     Float:left;
-    Font-size:45px;
+    Font-size: 45px;
     Line-height:1;
     Font-Weight:bold;
     margin-right: 9px;
+    Font-Family:"Snell Roundhand";
+    Position:Relative;
+    Bottom:10px;
   
   }
-}
 p {
   margin-bottom: .67em;
   }
@@ -34,7 +36,7 @@ nav, footer {
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color: #827f7f;
 }
 /*-- Main Menu Styles--*/
 nav ul {
@@ -45,15 +47,15 @@ nav ul {
   padding: 1em;
 }
 nav a:link, nav a:visited {
-  color: #9fadeb;
+  color: #827f7f;
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
-  color: #F0F0F0;
+  color: #827f7f;
   text-decoration: underline;
 }
 nav a.active {
-  color: #F0F0F0;
+  color: #827f7f;
 }
 /*-- Hero Unit Styles--*/
 header {
